@@ -1,0 +1,36 @@
+header {  border: 2px solid black; 
+          text-align: center; 
+          height: 15%;
+          font-size: 48px;
+       }
+aside { border: 2px solid black;
+        position: fixed;
+        left: 0px;
+        width: 15%;
+        height: 60%;
+       }
+article { border: 2px solid black;
+          color: black;
+          font-size: 18px;
+          position: fixed;
+          right: 0px;
+          width: 80%;
+          height: 60%;
+          vertical-align: middle;
+          padding: 20px;
+          overflow-y: auto;
+         }
+nav { }
+
+div.footerholder { border: 5px solid black;
+                   width: 100%;
+                   position: fixed;
+                   bottom: 0px;
+                  }
+
+span.highlight { background-color: yellow;
+                  color: black;
+                  line-height: 20px;
+                }
+
+footer { }

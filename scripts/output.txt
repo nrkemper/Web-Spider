@@ -1,0 +1,96 @@
+Tables_in_int322_133b40
+Customer
+Customer_Email
+Email
+Games
+Keywords
+Orders
+PhoneNumber
+URLS
+Users
+
+  Table Descriptions
+
+   URLS
+Field	Type	Null	Key	Default	Extra
+URLNo	int(9)	NO	PRI	NULL	auto_increment
+URL	char(50)	NO	UNI		
+Author	char(50)	NO			
+Name	char(50)	NO			
+Description	text	NO			
+StoreDate	char(30)	NO			
+
+  Keywords
+Field	Type	Null	Key	Default	Extra
+KeywordNo	int(9)	NO	PRI	NULL	auto_increment
+URLNo	int(9)	NO	PRI		
+Keyword	char(30)	NO			
+
+
+
+     URLS Table
+
+URLNo	URL	Author	Name	Description	StoreDate
+1	 http://www.hookedgamers.com/	N/A	Hooked Gamers	Hooked Gamers	 Sun, 08 Dec 2013 04:45:08 GMT
+2		N/A	Hooked Gamers	Hooked Gamers	 Sun, 08 Dec 2013 05:20:48 GMT
+3	 https://my.senecacollege.ca/webapps/login/	Blackboard	Blackboard Learn	NONE	 Sun, 08 Dec 2013 04:45:28 GMT
+4	 http://www.addictinggames.com/	N/A	Games - Free Online Games at Addicting Games!	Play over 3000 free online games! Including arcade games, puzzle games, funny games, sports games, shooting games, and more! New free games every day at AddictingGames!	 Sun, 08 Dec 2013 04:45:37 GMT
+5	 http://www.bungie.net/	N/A	Bungie	Bungie.net is the Internet home for Bungie, the developer of Destiny, Halo, Myth, Oni, and Marathon, and the only place with official Bungie info straight from the developers.	 Sun, 08 Dec 2013 04:45:47 GMT
+6	 http://www.giantbomb.com/	N/A	Giant Bomb - Video game reviews, videos, forums an	The largest video game database online, Giant Bomb features Game Reviews, News, Videos, and Forums for the latest in PS3, Xbox 360, Wii, PSP, DS, 3DS, NGP, and more!	 Sun, 08 Dec 2013 04:45:58 GMT
+7	 https://www.idlethumbs.net/	N/A	Idle Thumbs	NONE	 Sun, 08 Dec 2013 04:46:13 GMT
+
+
+     Keywords Table
+
+KeywordNo	URLNo	Keyword
+1	1	Hooked Gamers
+2	1	 Video Games
+3	1	 PC
+4	1	 PlayStation 2
+5	1	 PS2
+6	1	 Playstation 3
+7	1	 PS3
+8	1	 PSP
+9	1	 Xbox
+10	1	 Xbox 360
+11	1	 Wii
+12	1	 GameCube
+13	1	 Nintendo
+14	1	 DS
+15	1	 Sony
+16	1	 Microsoft
+17	4	Games
+18	4	 play games
+19	4	 free online games
+20	5	bungie
+21	5	 xbox
+22	5	 playstation
+23	5	 video
+24	5	 games
+25	5	 destiny
+26	5	 halo
+27	5	 myth
+28	5	 marathon
+29	5	 oni
+30	5	 blam
+31	5	 bungie store
+32	5	 7th Column
+33	5	 Stats
+34	5	 Xbox Live
+35	5	 Halo 3 Stats
+36	2	Hooked Gamers
+37	2	 Video Games
+38	2	 PC
+39	2	 PlayStation 2
+40	2	 PS2
+41	2	 Playstation 3
+42	2	 PS3
+43	2	 PSP
+44	2	 Xbox
+45	2	 Xbox 360
+46	2	 Wii
+47	2	 GameCube
+48	2	 Nintendo
+49	2	 DS
+50	2	 Sony
+51	2	 Microsoft
